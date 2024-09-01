@@ -1,0 +1,118 @@
+header .container .nav .list ul .con{
+    background-color: rgba(255, 255, 255, 0.323);
+}
+.page2con{
+    padding: 100px 0;
+}
+.page2con .container {
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.page2con .textcon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.page2con .text2con{
+    display: flex;
+    flex-direction: column;
+    
+}
+.page2con .text2con .lastd {
+    display: flex;
+}
+.page2con .textcon{
+    background-color: rgb(192, 192, 192);
+    border-radius: 25px;
+    padding: 50px;
+   
+}
+@media (max-width: 768px) {
+
+    .page2con .textcon{
+        font-size: small;
+    }  
+}
+.page2con .textcon h4{
+    margin-bottom: 15px;
+    color: rgb(255, 60, 0);
+}
+.page2con .textcon h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.page2con .textcon p{
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.page2con .textcon h5{
+    margin-bottom: 10px;
+}
+
+.page2con .lastd .emaiandname input {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    margin-right: 20px;
+    caret-color: black;
+    background-color: rgb(192, 192, 192);
+    color: white;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    width: 250px;
+}
+.page2con .lastd .emaiandname input:focus{
+    outline: none;
+}
+.page2con .text3con textarea{
+    width: 524px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.page2con .text3con button{
+    background-color: rgb(255, 60, 0);
+    color: white;
+    padding: 15px 20px ;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.page2con .text3con button:hover{
+    background-color: rgb(0, 145, 255);
+}
+@media (max-width: 768px) {
+    .page2con .textcon{
+        width: 100%;
+    }    
+    .page2con .textcon p{
+        width: 100%;
+    }
+    .page2con .text2con{
+        width: 100%;
+    }
+    .page2con .text3con textarea{
+        width: 100%;
+    }
+    .page2con .lastd .emaiandname input {
+        width: 100%;
+    }
+    .page2con .container {
+      flex-wrap: wrap;
+    }
+    .page2con .textcon1{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+}

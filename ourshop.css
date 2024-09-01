@@ -1,0 +1,69 @@
+header .container .nav .list ul .shop{
+    background-color: rgba(255, 255, 255, 0.323);
+}
+.page3{
+    padding: 100px 0;
+}
+.page3 .listshop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.page3 .listshop ul{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 .listshop ul li a{
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(183, 183, 183);
+    border-radius: 20px;
+}
+.page3 .listshop ul li a:hover{
+    color: rgb(255, 60, 0);
+}
+
+
+.page3 .circls{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px ;
+    flex-wrap: wrap;
+}
+.page3 .circls div{
+    margin: 0 20px;
+    background-color: rgb(183, 183, 183);
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+.page3 .circls div span{
+    text-align: center;
+}
+.page3 .circls .box2{
+    background-color: rgb(0, 145, 255);
+}
+
+@media (max-width: 768px) {
+    .page3 .listshop ul li{
+        margin-top: 10px;
+    }
+    .page3 .listshop ul{
+       gap: 5px;
+    }
+    .page3 .listshop ul li a{
+        padding: 5px 10px;
+    }
+    .page3 .circls div{
+        margin: 5px;
+    }
+
+}
